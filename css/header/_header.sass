@@ -1,0 +1,302 @@
+.header 
+
+    width: 64%
+    height: 300px
+
+
+
+.header li 
+    margin: 0
+
+
+.header header 
+    width: 100%
+    height: 100%
+    background: #000000
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000)
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.452)), url("../img/marshmello.jpg")
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover
+    background-position: center
+
+
+
+.header header .header__contenedor 
+    flex-wrap: wrap
+    display: flex
+    width: 95%
+    height: 100%
+    margin: auto
+    border-bottom: 1px solid #121212
+
+
+/*header top */
+.header .top 
+    margin-top: 5px
+    width: 100%
+    height: 20%
+
+
+
+.header .header__top 
+    display: flex
+    justify-content: space-between
+
+
+.header .header__top .header__inputs 
+    display: flex
+    align-items: center
+    position: relative
+    width: 40%
+
+
+.header .header__top .header__inputs .header__inputs-icon i 
+    margin-right: 10px
+    color: #fff
+
+
+.header .header__top .header__inputs .header__inputs-icon i:active 
+    color: #9D9D9D
+
+
+.header .header__top .header__inputs .header__inputs-input 
+    width: 60%
+    box-sizing: border-box
+    display: flex
+    align-items: center
+
+
+.header .header__top .header__inputs .header__inputs-input input 
+    border-radius: 20px
+    border: none
+    padding: 3px 20px
+    outline: none
+
+
+
+.header .header__top .header__inputs .header__inputs-input .buscar 
+    position: absolute
+    left: 45px
+    font-size: 10px
+    color: #000
+
+
+.header .header__top .header__inputs .header__inputs-input .buscar:hover 
+    color: #9d9d9d
+
+
+
+
+.header .header__top .header__suscribete 
+    display: flex
+    align-items: center
+
+
+
+.header .header__top .header__suscribete .suscribete>input 
+    padding: 3px 20px
+    margin-right: 20px
+    background: hsla(0, 0%, 0%, 0.693)
+    border: 1px solid #9d9d9d
+    color: #fff
+    border-radius: 20px
+
+
+.header .header__top .header__suscribete .suscribete>input:hover 
+    border: 1.4px solid #fff
+
+
+.header .header__top .header__suscribete .img 
+    display: flex
+    align-items: center
+
+
+.header .header__top .header__suscribete .img div 
+    width: 30px
+    height: 20px
+    display: flex
+    align-items: center
+    background: #fff
+    margin-right: 20px
+
+
+.header .header__top .header__suscribete .img div img 
+    width: 100%
+    border-radius: 50%
+
+
+.header .header__top .header__suscribete .img i 
+    color: #fff
+
+
+/* bottom */
+
+.header .bottom 
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+
+
+/* bottom mid (artista y nombres)*/
+
+
+.bottom .bottom__titulos 
+    width: 50%
+    display: flex
+    align-items: flex-start
+    flex-direction: column
+
+
+.bottom .bottom__titulos div 
+    display: flex
+    width: 50%
+    margin-left: 5px
+
+
+.bottom .bottom__titulos div h3 
+    margin-right: 2%
+
+
+.bottom .bottom__titulos h1 
+    font-size: 80px
+    width: 50%
+
+
+
+/* bottom lower (reproducir, seguir y textos) */
+
+.header .bottom .bottom__botones 
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+
+/* botones  */
+.header .bottom .bottom__botones .bottom__botones__botoness 
+    width: 60%
+
+
+.header .bottom .bottom__botones .bottom__botones__botoness input 
+    padding: 5px 20px
+    border-radius: 20px
+    color: #fff
+    font-weight: 500
+    font-size: 14px
+    border: none
+    margin-right: 10px
+
+
+.header .bottom .bottom__botones .bottom__botones__botoness i 
+    color: #fff
+    border-radius: 50%
+    border: 1px solid #fff
+    padding: 5px
+    background: hsla(0, 0%, 0%, 0.693)
+
+
+.header .bottom .bottom__botones .bottom__botones__botoness i:hover 
+
+    border: 1.5px solid #fff
+
+
+
+.header .bottom .bottom__botones .bottom__botones__botoness .reproducir:hover 
+    border: 1.4px solid #fff
+
+
+.header .bottom .bottom__botones .bottom__botones__botoness .reproducir 
+    background: #1DB954
+
+
+.header .bottom .bottom__botones .bottom__botones__botoness .seguir 
+    background: hsla(0, 0%, 0%, 0.693)
+    border: 1px solid #9d9d9d
+    padding: 5px 60px
+
+
+.header .bottom .bottom__botones .bottom__botones__botoness .seguir:hover 
+
+    border: 1.4px solid #fff
+
+
+/* lower textos */
+
+.header .bottom .bottom__botones .bottom__botones__titulos 
+    width: 25%
+
+
+.header .bottom .bottom__botones .bottom__botones__titulos .oyentes 
+
+    text-align: right !important
+    font-size: 14px
+    color: rgb(194, 194, 194)
+    font-family: sans-serif
+
+
+.header .bottom .bottom__botones .bottom__botones__titulos h3:hover,
+p:hover 
+    color: #fff
+
+
+/* menu inferior */
+
+
+.header .bottom .header__bottom 
+    width: 100%
+    display: flex
+    align-items: flex-end
+    
+
+
+.header .bottom .header__bottom ul 
+    display: flex
+    width: 90%
+    padding: 5px 10px
+    align-items: flex-end
+    justify-content: start
+
+
+.header .bottom .header__bottom ul li 
+    margin-right: 5%
+
+
+.header .bottom .header__bottom ul li a 
+    font-size: 14px
+    color: #d3c8c8
+    font-weight: 500
+
+
+.header .bottom .header__bottom ul li .vista-general 
+    border-bottom: 3px solid #1DB954
+
+
+.header .bottom .header__bottom ul li a:hover 
+    color: #fff
+    border-bottom: 3px solid #1DB954
+    transition: all .7s
+
+
+
+/* main */
+
+
+
+.header header .main 
+    margin: 20px 0
+    width: 100%
+    height: 100%
+
+
+
+.header header .main::-webkit-scrollbar 
+    width: 1em
+
+
+
+.header header .main::-webkit-scrollbar-thumb 
+    background-color: darkgrey
+    outline: 1px solid slategrey
+
+import _responsive
